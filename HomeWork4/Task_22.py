@@ -12,7 +12,6 @@ for i in range (0, n):
     while not temp.isdigit():
         temp = input('Вы ввели не целое число, давайте заново: ')
     set1.add(int(temp))
-
 print(set1)
 
 strm = input('Введите количество элементов второго набора: ')
@@ -26,8 +25,10 @@ for i in range (0, m):
     while not temp.isdigit():
         temp = input('Вы ввели не целое число, давайте заново: ')
     set2.add(int(temp))
-
 print(set2)
 
-print(set1.intersection(set2))
-print(list(set1.intersection(set2)))
+result = list(set1.intersection(set2))
+
+result.sort
+for i in result:
+    print(i)
