@@ -29,6 +29,5 @@ print(set2)
 
 result = list(set1.intersection(set2))
 
-result.sort
-for i in result:
-    print(i)
+result.sort()
+print(result)
